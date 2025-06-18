@@ -56,4 +56,4 @@ Exemplo de saída:
 Array original: [4, 10, 3, 5, 1, 12, 8]
 Array ordenado: [1, 3, 4, 5, 8, 10, 12]
 👤 Autor
-[Seu Nome] - [Link para seu LinkedIn ou outra rede social]
+Ikki Silva Carvalho - www.linkedin.com/in/ikki-silva-carvalho-0639a4323
