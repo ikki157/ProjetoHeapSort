@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Visualizador de Heap Sort</title>
+</head>
+<body>
+    <main class="container">
+            <h1>Visualizador de Heap Sort</h1>
+            <p style="text-align: center;">Insira os dados do array para ver o passo a passo do algoritmo de ordenação Heap Sort</p>
+
+            <form id="heapSortForm">
+                <section class="form-group">
+                    <label for="arraySize">1. Qual o tamanho do array?</label>
+                    <input placeholder="Tam. Array" type="number" id="arraySize" name="n" min="1" max="100" required>
+                    <button type="button" id="generateInputsBtn">Gerar Campos</button>
+                </section>
+                
+                 <section id="arrayInputsContainer" class="form-group">
+                </section>
+
+                <button type="submit" id="sortButton" style="display: none;">Ordenar!</button>
+            </form>
+
+            <section id="outputContainer" style="display: none;">
+                <h2>Passo a Passo da Execução</h2>
+                <pre id="output">Aguardando a execução...</pre>
+            </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
